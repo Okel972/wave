@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 61f2381133bdfe860312f33265231a8aa66e3c7e Kevin <akmtime@hotmail.com> 1682929515 +0200	commit (initial): Premier envoie la fenetre gestion des oeuvres fonctionnent
+61f2381133bdfe860312f33265231a8aa66e3c7e 5a15810edec2a69ce9b1062d5e23348b52cce6e3 Kevin <akmtime@hotmail.com> 1683017900 +0200	commit: 2eme envoi fenetre Gestion des Groupes De Musique
+5a15810edec2a69ce9b1062d5e23348b52cce6e3 c43e11f38c5a133011b06fdefb33e0d1bc624acd Kevin <akmtime@hotmail.com> 1683034334 +0200	commit: Mise a jour de gestion oeuvre et groupe de musique ajout de la fonction SelectChanged et Avancement sur Gestion concerts
+c43e11f38c5a133011b06fdefb33e0d1bc624acd 11e5cb13b856366ae09a6e234680348466feb61d Kevin <akmtime@hotmail.com> 1683035161 +0200	commit: Mise a jour gestion des oeuvres rangement du XAML

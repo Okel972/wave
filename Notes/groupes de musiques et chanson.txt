@@ -1,0 +1,79 @@
+Les Citronniers:
+
+Membres: Sarah (chanteuse), Tom (guitariste), Ben (bassiste), Alex (batteur)
+Histoire: Formé en 2015 à Londres, le groupe a commencé à jouer dans des petits clubs et a gagné une certaine notoriété grâce à leur mélange unique de rock indépendant et de musique électronique. Ils ont sorti leur premier album "Sour" en 2018 et ont depuis tourné à travers le Royaume-Uni et l'Europe.
+Style: Rock indépendant, musique électronique
+Influences: Radiohead, The xx, Daft Punk
+Albums: "Sour" (2018), "Bitter" (2021)
+
+Les Fantômes de la Nuit:
+
+Membres: Max (chanteur), Lily (guitariste), Eric (bassiste), Mark (batteur)
+Histoire: Formé en 2008 à Los Angeles, le groupe s'est rapidement fait remarquer pour leur son rock sombre et leur énergie sur scène. Ils ont sorti leur premier album "Nocturnes" en 2010 et ont tourné avec des groupes tels que The Black Keys et Arctic Monkeys.
+Style: Rock alternatif, rock gothique
+Influences: The Cure, Joy Division, Interpol
+Albums: "Nocturnes" (2010), "Sombres Horizons" (2013), "Échos de Minuit" (2018)
+
+Les Feux Follets:
+
+Membres: Lucie (chanteuse), Antoine (guitariste), Jules (bassiste), Marie (claviériste), Étienne (batteur)
+Histoire: Formé en 2012 à Paris, le groupe est devenu célèbre pour leur musique pop énergique et leurs paroles engagées. Ils ont sorti leur premier album "Enflammé" en 2015 et ont tourné en France et en Belgique.
+Style: Pop, rock
+Influences: Arcade Fire, Florence + The Machine, Phoenix
+Albums: "Enflammé" (2015), "Flamme Éternelle" (2018), "Brûlant" (2021)
+
+Les Échos du Désert:
+
+Membres: Omar (chanteur), Ahmed (oud), Fatima (violon), Hassan (percussions), Khaled (claviers)
+Histoire: Formé en 2010 à Tunis, le groupe a mélangé les sons de la musique traditionnelle tunisienne avec des éléments de jazz et de rock pour créer un son unique. Ils ont sorti leur premier album "Sahara Blues" en 2012 et ont tourné en Afrique du Nord et en Europe.
+Style: World music, jazz, rock
+Influences: Tinariwen, Yusef Lateef, Pink Floyd
+Albums: "Sahara Blues" (2012), "Dunes" (2015), "Mirages" (2020)
+
+Les Voix de l'Aube:
+
+Membres: Marie (chanteuse), Thomas (guitariste), Charlotte (pianiste), Simon (bassiste), Éric (batteur)
+Histoire: Formé en 2014 à Montréal, le groupe s'est rapidement fait remarquer pour leur harmonie vocale unique et leurs chansons poétiques. Ils ont sorti leur premier album "Aube" en 2016 et ont tourné à travers le Canada et les États-Unis.
+Style: Folk, pop
+Influences: Fleet Foxes, Bon Iver, Simon & Garfunkel
+Albums: "Aube" (2016), "Lueur" (2019), "Rayons" (2022)
+
+Les Citronniers :
+
+("Jardin d'Eden", "Les Citronniers", "Aube Citron", 2018, 265, "ID001")
+("La Danse du Soleil", "Les Citronniers", "Aube Citron", 2018, 189, "ID002")
+("L'Ombre et la Lumière", "Les Citronniers", "Aube Citron", 2018, 312, "ID003")
+("L'Echo du Temps", "Les Citronniers", "Aube Citron", 2018, 248, "ID004")
+("Ciel de Cristal", "Les Citronniers", "Aube Citron", 2018, 203, "ID005")
+
+Les Fantômes de la Nuit :
+
+("L'Appel de la Nuit", "Les Fantômes de la Nuit", "Nuit Fantôme", 2022, 176, "ID006")
+("Le Rêve de la Lune", "Les Fantômes de la Nuit", "Nuit Fantôme", 2022, 211, "ID007")
+("La Morsure de l'Ombre", "Les Fantômes de la Nuit", "Nuit Fantôme", 2022, 187, "ID008")
+("Le Chant des Ténèbres", "Les Fantômes de la Nuit", "Nuit Fantôme", 2022, 225, "ID009")
+("Les Yeux de Minuit", "Les Fantômes de la Nuit", "Nuit Fantôme", 2022, 198, "ID010")
+
+Les Feux Follets :
+
+("Les Flammes du Destin", "Les Feux Follets", "Feux Follets", 2015, 224, "ID011")
+("Le Souffle de la Vie", "Les Feux Follets", "Feux Follets", 2015, 187, "ID012")
+("La Lueur de l'Espoir", "Les Feux Follets", "Feux Follets", 2015, 253, "ID013")
+("L'Envie de Briller", "Les Feux Follets", "Feux Follets", 2015, 206, "ID014")
+("Le Feu de la Passion", "Les Feux Follets", "Feux Follets", 2015, 219, "ID015")
+
+Les Échos du Désert :
+
+("Le Souffle du Vent", "Les Échos du Désert", "Désert d'Échos", 2019, 192, "ID016")
+("La Voix de l'Oasis", "Les Échos du Désert", "Désert d'Échos", 2019, 227, "ID017")
+("Les Sables de l'Infini", "Les Échos du Désert", "Désert d'Échos", 2019, 213, "ID018")
+("Le Cri du Scorpion", "Les Échos du Désert", "Désert d'Échos", 2019, 180, "ID019")
+("Les Vents de la Liberté", "Les Échos du Désert", "Désert d'Échos", 2019, 202, "ID020")
+
+Les Voix de l'Aube :
+
+("Premiers Rayons", "Les Voix de l'Aube", "L'Aube se lève", 2022, 180, "ID007")
+("Le Souffle du Vent", "Les Voix de l'Aube", "Esprit Libre", 2020, 210, "ID008")
+("Sous les Étoiles", "Les Voix de l'Aube", "Nuit Blanche", 2021, 195, "ID009")
+("Ensemble Nous Avançons", "Les Voix de l'Aube", "Lumière Intérieure", 2023, 220, "ID010")
+("Le Chant du Renouveau", "Les Voix de l'Aube", "Nouvelle Ère", 2022, 185, "ID011")

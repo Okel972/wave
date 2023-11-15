@@ -1,0 +1,47 @@
+﻿<Window x:Class="Wave.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wave" MouseDoubleClick="Window_MouseDoubleClick"
+        mc:Ignorable="d" WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        Title="MainWindow" Height="450" Width="500">
+    
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
+    </WindowChrome.WindowChrome>
+
+        <!--Declaration des lignes-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="22"/>
+            <RowDefinition/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        
+        <!--en tete-->
+        <Rectangle Fill="LightGray"/>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button x:Name="bntMin" Grid.Row="0" Content="-" Height="22" Width="20" HorizontalAlignment="Right" BorderBrush="Black" Background="Transparent" Click="bntMin_Click"/>
+            <Button x:Name="bntMax" Grid.Row="0" Content="I" Height="22" Width="20" HorizontalAlignment="Right" BorderBrush="Black" Background="Transparent" Click="bntMax_Click"/>
+            <Button x:Name="bntClose" Grid.Row="0" Content="x" Height="22" Width="20" HorizontalAlignment="Right" BorderBrush="Black" Background="LightCoral" Click="bntClose_Click"/>
+        </StackPanel>
+
+        <Label Content="Mon application Wave - Concerts, Musiques, Groupes, Evenements" FontSize="9" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <!--Corps-->
+        <StackPanel Grid.Row="1" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Left">
+            <Button x:Name="Acceuil" Content="Acceuil" Width="190" Height="40" Margin="20" Click="Acceuil_Click"/>
+            <Button x:Name="GestionDesOeuvres" Content="Gestion des oeuvres" Width="190" Height="40" Margin="20" Click="GestionDesOeuvres_Click"/>
+            <Button x:Name="GestionDesGroupesDeMusique" Content="Gestion des groupes de musiques" Width="190" Height="40" Margin="20" Click="GestionDesGroupesDeMusique_Click"/>
+            <Button x:Name="GestionDesConcerts" Content="Gestion des concerts" Width="190" Height="40" Margin="20" Click="GestionDesConcerts_Click"/>
+            <Button x:Name="GestionsDesComptes" Content="Gestion des comptes" Width="190" Height="40" Margin="20" Click="GestionsDesComptes_Click"/>
+        </StackPanel>
+
+        <!--Pied de page-->
+        <Rectangle Grid.Row="2" Fill="DarkGray"/>
+
+    </Grid>
+    
+</Window>

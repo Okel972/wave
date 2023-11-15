@@ -1,0 +1,84 @@
+﻿<Window x:Class="Wave.View.AssistantAssociation2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wave.View"
+        mc:Ignorable="d"
+        Title="AssistantAssociation2" Height="600" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.3*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="1" Content="MusicGroups:" Margin="5"/>
+            <!--<ComboBox Grid.Row="1" x:Name="MusicGroupComboBox" Margin="5" Width="200"/>-->
+
+            <ListView x:Name="ListChansonMusicGroup" Grid.Row="0" Grid.Column="1" SelectionChanged="ListChansonMusicGroup_SelectionChanged">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Nom Groupe" DisplayMemberBinding="{Binding NomGroupe}" />
+                        <GridViewColumn Header="Nom Chanson" DisplayMemberBinding="{Binding NomChanson}" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+        </Grid>
+
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.3*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Content="Concerts:" Margin="5"/>
+            <!--<ComboBox ItemsSource="{Binding oeuvres}" Grid.Row="0" x:Name="OeuvreComboBox" Margin="5" Width="200"/>-->
+
+            <ListView x:Name="ConcertList" Grid.Row="0" Grid.Column="1" SelectionChanged="ConcertList_SelectionChanged">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding ConcertName}" Margin="5"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+
+        <StackPanel Grid.Row="5" Orientation="Horizontal" VerticalAlignment="Top">
+            <Label Content="Choix du groupe de musique :" Margin="5" Height="30"/>
+            <TextBlock x:Name="ChansonMusicGroupChoice" Width="120" Margin="5,10,0,0" Height="30"/>
+            <Label Content="Choix du concert :" Margin="5" Height="30"/>
+            <TextBlock x:Name="ConcertChoice" Width="120" Margin="5,10,0,0" Height="30"/>
+        </StackPanel>
+
+        <Button Grid.Row="5" Width="180" Content="Associer Concert et MusicGroup" Margin="5,45,0,5" Click="OnAssocierButtonClicked"/>
+
+        <ListView x:Name="listView" Grid.Row="6">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Nom du concert" DisplayMemberBinding="{Binding NameConcert}" />
+                    <GridViewColumn Header="Date du concert" DisplayMemberBinding="{Binding DateConcert}" />
+                    <GridViewColumn Header="Nom du groupe" DisplayMemberBinding="{Binding GroupeNameChansonMusicGroup}" />
+                    <GridViewColumn Header="Membres" DisplayMemberBinding="{Binding MembresChansonMusicGroup}" />
+                    <GridViewColumn Header="Nom de la chanson" DisplayMemberBinding="{Binding NameChansonMusicGroup}" />
+                    <GridViewColumn Header="Artistes" DisplayMemberBinding="{Binding ArtistChansonMusicGroup}" />
+                    <GridViewColumn Header="Durée de la chanson en sec" DisplayMemberBinding="{Binding TimeChansonMusicGroup}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</Window>

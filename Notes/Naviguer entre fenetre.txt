@@ -1,0 +1,53 @@
+<Button Content="Ajouter Concert" Command="{Binding AddElementCommand}" CommandParameter="Concert"/>
+<Button Content="Ajouter Groupe de Musique" Command="{Binding AddElementCommand}" CommandParameter="MusicGroup"/>
+public ICommand AddElementCommand { get; private set; }
+
+public ViewModel()
+{
+    // Initialisez la commande "AddElementCommand" avec une méthode qui ajoute un élément du type spécifié
+    this.AddElementCommand = new RelayCommand<string>((elementType) =>
+    {
+        if (elementType == "Concert")
+        {
+            this.Concerts.Add(new Concert(...)); // Ajoutez un nouvel élément de type Concert à la liste
+        }
+        else if (elementType == "MusicGroup")
+        {
+            this.MusicGroups.Add(new MusicGroup(...)); // Ajoutez un nouvel élément de type Groupe de musique à la liste
+        }
+    });
+}
+
+MusicGroup musicGroupTest = new MusicGroup("Les Citronniers", "Sarah (chanteuse), Tom (guitariste), Ben (bassiste), Alex (batteur)", "Formé en 2015 à Londres, le groupe a commencé à jouer dans des petits clubs et a gagné une certaine notoriété grâce à leur mélange unique de rock indépendant et de musique électronique. Ils ont sorti leur premier album 'Sour' en 2018 et ont depuis tourné à travers le Royaume-Uni et l'Europe.", "Rock indépendant, musique électronique", "Radiohead, The xx, Daft Punk");
+App.musicGroup.Add(musicGroupTest);
+
+// Accédez à la liste statique de groupes de musique dans la classe App
+            List<MusicGroup> groupes = App.musicGroup;
+
+            // Utilisez la liste pour afficher les groupes de musique dans la fenêtre
+            foreach (MusicGroup groupe in groupes)
+            {
+                TextBlock nomGroupe = new TextBlock(); //Toutes la liste
+                nomGroupe.Text = groupe.NameGroup;
+                ListeGroupes.Children.Add(nomGroupe);
+
+if (groupe.Nom == "Les Feux Follets")
+    {
+        TextBlock nomGroupe = new TextBlock(); //Un seul élément de la liste
+        nomGroupe.Text = groupe.Nom;
+        MaGrid.Children.Add(nomGroupe);
+        
+        TextBlock membresGroupe = new TextBlock();
+        membresGroupe.Text = "Membres : " + groupe.Membres;
+        MaGrid.Children.Add(membresGroupe);
+        
+        // Ajoutez d'autres TextBlock pour afficher les autres informations du groupe
+        break;
+    }
+            }
+
+//TextBlock à ajouter
+<StackPanel Grid.Row="0" Grid.Column="0" VerticalAlignment="Center">
+            <TextBlock Text="Groupes de musique :" FontWeight="Bold" />
+            <StackPanel x:Name="ListeGroupes" Margin="10,0,0,0" />
+        </StackPanel>

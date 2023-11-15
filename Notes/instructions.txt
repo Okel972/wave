@@ -1,0 +1,4 @@
+- ajouter des chansons et les associer à des groupes de musique pour les concerts > Gestion des oeuvres
+- ajouter des groupes de musique, de gérer leurs informations de contact et de visualiser les chansons associées à chaque groupe > Gestion des groupes de musique
+- planifier et de gérer les détails de chaque concert, y compris la date, l'heure, l'emplacement, les chansons jouées et les groupes de musique participants > Gestion des concerts
+- gérer les comptes des utilisateurs, y compris les administrateurs, les organisateurs de concerts et les acheteurs de billets > Gestion des comptes

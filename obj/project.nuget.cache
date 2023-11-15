@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "TB6/K5aNqnJEFehglU4f+SF+Mn5FDY3ajSCZnTgqUd6uPluvh+xysQ24/kIIgaMeUYn+aAoxFRhfsHbOMuadSw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\home\\Documents\\DocumentsKevin\\Formation\\Auto-formation\\Csharp\\AppWave\\Wave\\Wave.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\home\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\home\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\home\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\home\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
